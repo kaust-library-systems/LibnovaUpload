@@ -4,7 +4,7 @@ Upload some troublemakers to Libnova
 
 ## Items to Upload
 
-| ID | created new SIP? | Pass internal verification | December 2024 Priority |
+| ID | Unzipped in Data Waha? | created new SIP? | December 2024 Priority |
 | -- | ---------------- | -------------------------- | ---------------------- |
 | 013_002_0024 | re-extract using Docker| | High |
 | 013_002_0029 | re-extract using Docker| | High |
