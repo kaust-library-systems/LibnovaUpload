@@ -37,3 +37,65 @@ The procedure:
 1. Create the [BagIt container](https://github.com/kaust-library/clamdock?tab=readme-ov-file#bagit).
 1. Create the file with the information of the bag.
 1. Run the container.
+
+File with the details for the Bag
+
+```
+PS E:\LibnovaUpload> cat .\001_002_0001_env.txt
+SOURCE_ORGANIZATION="KAUST"
+EXTERNAL_IDENTIFIER="001_002_0001"
+INTERNAL_SENDER_DESCRIPTION="internal description"
+TITLE="001_002_0001"
+DATE_START="2024-12-29"
+RECORD_CREATORS="KAUST_Library"
+RECORD_TYPE="rec_type"
+EXTEND_SIZE="123456"
+SUBJECTS="Subject"
+OFFICE="Office"
+PS E:\LibnovaUpload>
+```
+
+Docker run to create the container
+
+```
+PS E:\LibnovaUpload\001_002_0001> ls
+
+
+    Directory: E:\LibnovaUpload\001_002_0001
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         10/4/2021  11:08 AM                002_EMERGENCY_OPERATIONS_CENTER_CORONA_CRISIS_MANAGEMENT_TEAM
+
+
+PS E:\LibnovaUpload\001_002_0001>
+PS E:\LibnovaUpload\001_002_0001> pwd
+
+Path
+----
+E:\LibnovaUpload\001_002_0001
+
+
+PS E:\LibnovaUpload\001_002_0001>
+PS E:\LibnovaUpload\001_002_0001> docker run -it --rm --env-file ../001_002_0001_env.txt `
+>> -v "E:\LibnovaUpload\001_002_0001:/mydir" `
+>> --name 001_002_0001 mybagit bagit.py --contact-name 'Eamon' /mydir
+PS E:\LibnovaUpload\001_002_0001> ls
+
+
+    Directory: E:\LibnovaUpload\001_002_0001
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+da----        12/29/2024   3:17 PM                data
+-a----        12/29/2024   3:18 PM            421 bag-info.txt
+-a----        12/29/2024   3:18 PM             55 bagit.txt
+-a----        12/29/2024   3:18 PM           7003 manifest-sha256.txt
+-a----        12/29/2024   3:18 PM            238 tagmanifest-sha256.txt
+
+
+PS E:\LibnovaUpload\001_002_0001>
+```
+
