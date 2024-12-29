@@ -9,7 +9,7 @@ Upload some troublemakers to Libnova
 | 013_002_0024                                                                        | re-extract using Docker         |                  | High                   |
 | 013_002_0029                                                                        | re-extract using Docker         |                  | High                   |
 | 001_002_0001                                                                        | yes (zips removed)              | base path error  | Medium                 |
-| 002                                                                                 | yes (zips removed)              | base path error  | Medium                 |
+| 002_ADMINISTRATION                                                                  | yes (zips removed)              | base path error  | Medium                 |
 | 003*CONFERENCES_WORKSHOPS_EVENTS -<br> Winter_Enrichment_Program_WEP*-\_web_archive | re-extract using Docker         | base path error  | Medium                 |
 | 003                                                                                 | yes (zips removed)              | base path error  | Medium                 |
 | 003_003                                                                             | re-extract using Docker         | base path error  | Medium                 |
@@ -98,4 +98,3 @@ da----        12/29/2024   3:17 PM                data
 
 PS E:\LibnovaUpload\001_002_0001>
 ```
-
