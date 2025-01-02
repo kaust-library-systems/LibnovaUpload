@@ -10,7 +10,7 @@ Upload some troublemakers to Libnova
 | 013_002_0029                                                                        | re-extract using Docker         |                  | High                   | Not Found in Datawaha, Preservica AWS or FRED                  |
 | 001_002_0001                                                                        | yes (zips removed)              | base path error  | Medium                 | New bag in E:\LibnovaUpload                                    |
 | 002_ADMINISTRATION                                                                  | yes (zips removed)              | base path error  | Medium                 | New bag in E:\LibnovaUpload                                    |
-| 003*CONFERENCES_WORKSHOPS_EVENTS -<br> Winter_Enrichment_Program_WEP*-\_web_archive | re-extract using Docker         | base path error  | Medium                 | /mnt/datawaha/preservica/work/003_CONFERENCES_WORKSHOPS_EVENTS |
+| 003*CONFERENCES_WORKSHOPS_EVENTS -<br> Winter_Enrichment_Program_WEP*-\_web_archive | re-extract using Docker         | base path error  | Medium                 | /mnt/datawaha/preservica/work/003_CONFERENCES_WORKSHOPS_EVENTS <br> E:\LibnovaUpload\003_CONFERENCES_WORKSHOPS_EVENTS|
 | 003                                                                                 | yes (zips removed)              | base path error  | Medium                 |
 | 003_003                                                                             | re-extract using Docker         | base path error  | Medium                 |
 | 004                                                                                 | yes (zips removed)              | base path error  | Medium                 |
