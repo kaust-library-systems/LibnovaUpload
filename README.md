@@ -12,10 +12,10 @@ Upload some troublemakers to Libnova
 | 002_ADMINISTRATION                                                                  | yes (zips removed)              | base path error  | Medium                 | New bag in E:\LibnovaUpload                                    |
 | 003*CONFERENCES_WORKSHOPS_EVENTS -<br> Winter_Enrichment_Program_WEP*-\_web_archive | re-extract using Docker         | base path error  | Medium                 | /mnt/datawaha/preservica/work/003_CONFERENCES_WORKSHOPS_EVENTS <br> E:\LibnovaUpload\003_CONFERENCES_WORKSHOPS_EVENTS|
 | 003                                                                                 | yes (zips removed)              | base path error  | Medium                 |
-| 003_003                                                                             | re-extract using Docker         | base path error  | Medium                 |
+| 003_003                                                                             | re-extract using Docker         | base path error  | Medium                 | E:\LibnovaUpload\003_RESEARCH\003_COMPUTER_ELECTRICAL_AND_MATHEMATICAL_SCIENCES |
 | 004                                                                                 | yes (zips removed)              | base path error  | Medium                 |
-| 004_002                                                                             | re-extract using Docker         | base path error  | Medium                 |
-| 004_006                                                                             | yes (zips removed)              | base path error  | Medium                 |
+| 004_002                                                                             | re-extract using Docker         | base path error  | Medium                 | E:\LibnovaUpload\004_STUDENT_AND_STUDENT_SERVICES\002_ENGLISH_LANGUAGE_AND_COMMUNICATION_PROGRAM |
+| 004_006                                                                             | yes (zips removed)              | base path error  | Medium                 | E:\LibnovaUpload\004_STUDENT_AND_STUDENT_SERVICES\006_MATERIAL_RESEARCH_SOCIETY__STUDENT_CHAPTER |
 | 004_012                                                                             | re-extract using Docker         | base path error  | Medium                 |
 | 005                                                                                 | yes (zips removed)              | base path error  | Medium                 |
 | 005_005                                                                             | re-extract using Docker         | base path error  | Medium                 |
